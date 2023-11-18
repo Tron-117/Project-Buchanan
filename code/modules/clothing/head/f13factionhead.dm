@@ -657,7 +657,12 @@
 	desc = "A green beret, standard issue for all commissioned NCR Officers."
 	icon_state = "ncr_officer_beret"
 	item_state = "ncr_officer_beret"
-	armor = list("melee" = 15, "bullet" = 30, "laser" = 40, "energy" = 20, "bomb" = 50, "bio" = 30, "rad" = 20, "fire" = 60, "acid" = 0, "wound" = 55)
+
+/obj/item/clothing/head/beret/ncr/military_police
+	name = "NCR officer beret"
+	desc = "A brown beret, standard issue for all commissioned NCR Military Police Officers."
+	icon_state = "ncr_mp_beret"
+	item_state = "ncr_mp_beret"
 
 /obj/item/clothing/head/beret/ncr/reno
 	name = "NCR officer beret"
@@ -1009,6 +1014,7 @@
 	dynamic_hair_suffix = null
 	dynamic_fhair_suffix = null
 	var/helmettoggled = FALSE
+	armor = list("melee" = 0, "bullet" = 0, "laser" = 0,  "energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 0, "acid" = 0, "wound" = 0)
 
 /obj/item/clothing/head/helmet/f13/khan/bandana/Initialize()
 	. = ..()

@@ -197,6 +197,18 @@
 	icon_state = "renowok"
 	desc = "A place of noodles clearly..."
 
+/obj/structure/sign/reno/barsign/atomicblast
+	name = "Atomic Blast"
+	icon = 'icons/obj/barsigns.dmi'
+	icon_state = "atomicblast"
+	desc = "It's business after all..."
+
+/obj/structure/sign/reno/barsign/bank
+	name = "Reno Bank"
+	icon = 'icons/obj/barsigns.dmi'
+	icon_state = "renowok"
+	desc = "A sign advertising loans..."
+
 
 //Code below is to define useless variables for datums. It errors without these
 
